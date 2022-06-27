@@ -1,0 +1,147 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<link href="ui.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="aviso">
+			<img src="images/logo-strong.png">
+			<h1>AVISO DE RESOLUÇÃO</h1>
+			<p>Detectamos que você esta tentando acessar o tablet utilizando uma resolução inferior á 1000px de largura.</p>
+			<p>Não será possível. Sentimos muito, troque sua resolução e tente novamente.! Att. Strong RP</p>
+		</div>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="btn_menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<!-- FACAS -->
+				<span class="categorias">FACAS</span>
+				<button class="menuoption" data-action="DAGGER"><img src="images/dagger.png"><p>DAGGER</p></button>
+				<button class="menuoption" data-action="BAT"><img src="images/bat.png"><p>BAT</p></button>
+				<button class="menuoption" data-action="BOTTLE"><img src="images/bottle.png"><p>BOTTLE</p></button>
+				<button class="menuoption" data-action="CROWBAR"><img src="images/crowbar.png"><p>CROWBAR</p></button>
+				<button class="menuoption" data-action="FLASHLIGHT"><img src="images/flashlight.png"><p>FLASHLIGHT</p></button>
+				<button class="menuoption" data-action="GOLFCLUB"><img src="images/golfclub.png"><p>GOLF CLUB</p></button>
+				<button class="menuoption" data-action="HAMMER"><img src="images/hammer.png"><p>HAMMER</p></button>
+				<button class="menuoption" data-action="HATCHET"><img src="images/hatchet.png"><p>HATCHET</p></button>
+				<button class="menuoption" data-action="KNUCKLES"><img src="images/knuckles.png"><p>KNUCKLES</p></button>
+				<button class="menuoption" data-action="KNIFE"><img src="images/knife.png"><p>KNIFE</p></button>
+				<button class="menuoption" data-action="MACHETE"><img src="images/machete.png"><p>MACHETE</p></button>
+				<button class="menuoption" data-action="SWITCHBLADE"><img src="images/switchblade.png"><p>SWITCHBLADE</p></button>
+				<button class="menuoption" data-action="NIGHTSTICK"><img src="images/nightstick.png"><p>NIGHTSTICK</p></button>
+				<button class="menuoption" data-action="WRENCH"><img src="images/wrench.png"><p>WRENCH</p></button>
+				<button class="menuoption" data-action="POOLCUE"><img src="images/poolcue.png"><p>POOL CUE</p></button>
+				<button class="menuoption" data-action="STONEHATCHET"><img src="images/stone_hatchet.png"><p>STONE HATCHET</p></button>
+				<!-- PISTOLAS -->
+				<span class="categorias">PISTOLAS</span>
+				<button class="menuoption" data-action="PISTOL"><img src="images/pistol.png"><p>PISTOL</p></button>
+				<button class="menuoption" data-action="PISTOL_MK2"><img src="images/pistol_mk2.png"><p>PISTOL MK2</p></button>
+				<button class="menuoption" data-action="COMBATPISTOL"><img src="images/combatpistol.png"><p>COMBAT PISTOL</p></button>
+				<button class="menuoption" data-action="APPISTOL"><img src="images/appistol.png"><p>AP PISTOL</p></button>
+				<button class="menuoption" data-action="STUNGUN"><img src="images/stungun.png"><p>STUNGUN</p></button>
+				<button class="menuoption" data-action="PISTOL50"><img src="images/pistol50.png"><p>PISTOL .50</p></button>
+				<button class="menuoption" data-action="SNSPISTOL"><img src="images/snspistol.png"><p>SNSPISTOL</p></button>
+				<button class="menuoption" data-action="SNSPISTOL_MK2"><img src="images/snspistol_mk2.png"><p>SNSPISTOL MK2</p></button>
+				<button class="menuoption" data-action="HEAVYPISTOL"><img src="images/heavypistol.png"><p>HEAVY PISTOL</p></button>
+				<button class="menuoption" data-action="VINTAGEPISTOL"><img src="images/vintagepistol.png"><p>VINTAGE PISTOL</p></button>
+				<button class="menuoption" data-action="FLAREGUN"><img src="images/flaregun.png"><p>FLARE GUN</p></button>
+				<button class="menuoption" data-action="MARKSMANPISTOL"><img src="images/marksmanpistol.png"><p>MARKSMAN PISTOL</p></button>
+				<button class="menuoption" data-action="RESOLVER"><img src="images/revolver.png"><p>RESOLVER</p></button>
+				<button class="menuoption" data-action="REVOLVER_MK2"><img src="images/revolver_mk2.png"><p>REVOLVER MK2</p></button>
+				<button class="menuoption" data-action="DOUBLEACTION"><img src="images/doubleaction.png"><p>REVOLVER DOUBLE</p></button>
+				<button class="menuoption" data-action="RAYPISTOL"><img src="images/raypistol.png"><p>UP ATOMIZER</p></button>
+				<button class="menuoption" data-action="CERAMICPISTOL"><img src="images/ceramicpistol.png"><p>CERAMIC PISTOL</p></button>
+				<button class="menuoption" data-action="NAVYREVOLVER"><img src="images/navyrevolver.png"><p>NAVY REVOLVER</p></button>
+				<button class="menuoption" data-action="GADGETPISTOL"><img src="images/gadgetpistol.png"><p>PERICO PISTOL</p></button>
+				<button class="menuoption" data-action="STUNGUN_MP"><img src="images/stungun.png"><p>STUN GUN</p></button>
+				<!-- SUBS -->
+				<span class="categorias">SUB-METRALHADORA</span>
+				<button class="menuoption" data-action="MCROSMG"><img src="images/microsmg.png"><p>MICRO UZI</p></button>
+				<button class="menuoption" data-action="SMG"><img src="images/smg.png"><p>SMG</p></button>
+				<button class="menuoption" data-action="SMG_MK2"><img src="images/smg_mk2.png"><p>SMG MK2</p></button>
+				<button class="menuoption" data-action="ASSAULTSMG"><img src="images/assaultsmg.png"><p>ASSAULT SMG</p></button>
+				<button class="menuoption" data-action="COMBATPDW"><img src="images/combatpdw.png"><p>COMBAT PDW</p></button>
+				<button class="menuoption" data-action="MACHINEPISTOL"><img src="images/machinepistol.png"><p>MACHINE PISTOL</p></button>
+				<button class="menuoption" data-action="MINISMG"><img src="images/minismg.png"><p>MINI SMG</p></button>
+				<button class="menuoption" data-action="RAYCARBINE"><img src="images/raycarbine.png"><p>UNHOLY</p></button>
+				<!-- SHOTGUN -->
+				<span class="categorias">SHOTGUNS</span>
+				<button class="menuoption" data-action="PUMPSHOTGUN"><img src="images/pumpshotgun.png"><p>PUMP SHOTGUN</p></button>
+				<button class="menuoption" data-action="PUMPSHOTGUN_MK2"><img src="images/pumpshotgun_mk2.png"><p>PUMP SHOTGUN MK2</p></button>
+				<button class="menuoption" data-action="SAWNOFFSHOTGUN"><img src="images/sawnoffshotgun.png"><p>SAWED-OFF</p></button>
+				<button class="menuoption" data-action="ASSAULTSHOTGUN"><img src="images/assaultshotgun.png"><p>ASSAULT SHOTGUN</p></button>
+				<button class="menuoption" data-action="BULLPUPSHOTGUN"><img src="images/bullpupshotgun.png"><p>BULLPUP SHOTGUN</p></button>
+				<button class="menuoption" data-action="MUSKET"><img src="images/musket.png"><p>MUSKET</p></button>
+				<button class="menuoption" data-action="HEAVYSHOTGUN"><img src="images/heavyshotgun.png"><p>HEAVY SHOTGUN</p></button>
+				<button class="menuoption" data-action="DBSHOTGUN"><img src="images/dbshotgun.png"><p>DOUBLE BARREL</p></button>
+				<button class="menuoption" data-action="AUTOSHOTGUN"><img src="images/autoshotgun.png"><p>SWEPPER SHOTGUN</p></button>
+				<button class="menuoption" data-action="COMBATSHOTGUN"><img src="images/combatshotgun.png"><p>COMBAT SHOTGUN</p></button>
+				<!-- RIFLES -->
+				<span class="categorias">RIFLES DE ASSAULTO</span>
+				<button class="menuoption" data-action="ASSAULTRIFLE"><img src="images/assaultrifle.png"><p>ASSAULT RIFLE</p></button>
+				<button class="menuoption" data-action="ASSAULTRIFLE_MK2"><img src="images/assaultrifle_mk2.png"><p>ASSAULT RIFLE MK2</p></button>
+				<button class="menuoption" data-action="CARBINERIFLE"><img src="images/carbinerifle.png"><p>CARBINE RIFLE</p></button>
+				<button class="menuoption" data-action="CARBINERIFLE_MK2"><img src="images/carbinerifle_mk2.png"><p>CARBINE RIFLE MK2</p></button>
+				<button class="menuoption" data-action="ADVANCEDRIFLE"><img src="images/advancedrifle.png"><p>ADVANCED RIFLE</p></button>
+				<button class="menuoption" data-action="SPECIALCARBINE"><img src="images/specialcarbine.png"><p>SPECIAL CARBINE</p></button>
+				<button class="menuoption" data-action="SPECIALCARBINE_MK2"><img src="images/specialcarbine_mk2.png"><p>SPECIAL CARBINE MK2</p></button>
+				<button class="menuoption" data-action="BULLPUPRIFLE"><img src="images/bullpuprifle.png"><p>BULLPUP RIFLE</p></button>
+				<button class="menuoption" data-action="BULLPUPRIFLE_MK2"><img src="images/bullpuprifle_mk2.png"><p>BULLPUP RIFLE MK2</p></button>
+				<button class="menuoption" data-action="COMPACTRIFLE"><img src="images/compactrifle.png"><p>COMPACT RIGLE</p></button>
+				<button class="menuoption" data-action="MILITARYRIFLE"><img src="images/militaryrifle.png"><p>MILITARY RIFLE</p></button>
+				<button class="menuoption" data-action="HEAVYRIFLE"><img src="images/heavyrifle.png"><p>HEAVY RIFLE</p></button>
+				<!-- METRALHADORAS -->
+				<span class="categorias">METRALHADORAS PESADAS</span>
+				<button class="menuoption" data-action="MG"><img src="images/mg.png"><p>MG</p></button>
+				<button class="menuoption" data-action="COMBATMG"><img src="images/combatmg.png"><p>COMBAT MG</p></button>
+				<button class="menuoption" data-action="COMBARMG_MK2"><img src="images/combatmg_mk2.png"><p>COMBAR MG MK2</p></button>
+				<button class="menuoption" data-action="GUSENBERG"><img src="images/gusenberg.png"><p>GUSENBERG</p></button>
+				<!-- SNIPER RIFLE -->
+				<span class="categorias">SNIPER</span>
+				<button class="menuoption" data-action="SNIPERRIFLE"><img src="images/sniperrifle.png"><p>SNIPER RIFLE</p></button>
+				<button class="menuoption" data-action="HEAVYSNIPER"><img src="images/heavysniper.png"><p>HEAVY SNIPER</p></button>
+				<button class="menuoption" data-action="HEAVYSNIPER_MK2"><img src="images/heavysniper_mk2.png"><p>HEAVY SNIPER MK2</p></button>
+				<button class="menuoption" data-action="MARKSMANRIFLE"><img src="images/marksmanrifle.png"><p>MARKSMAN RIFLE</p></button>
+				<button class="menuoption" data-action="MARKSMANRIFLE_MK2"><img src="images/marksmanrifle_mk2.png"><p>MARKSMAN RIFLE MK2</p></button>
+				<!-- ARMAMENTO PESADO -->
+				<span class="categorias">ARMAMENTO PESADO</span>
+				<button class="menuoption" data-action="RPG"><img src="images/rpg.png"><p>RPG</p></button>
+				<button class="menuoption" data-action="GRENADELAUNCHER"><img src="images/grenadelauncher.png"><p>GRANADEIRA</p></button>
+				<button class="menuoption" data-action="MINIGUN"><img src="images/minigun.png"><p>MINIGUN</p></button>
+				<button class="menuoption" data-action="FIREWORK"><img src="images/firework.png"><p>FIREWORK</p></button>
+				<button class="menuoption" data-action="RAILGUN"><img src="images/railgun.png"><p>RAILGUN</p></button>
+				<button class="menuoption" data-action="HOMINGLAUNCHER"><img src="images/hominglauncher.png"><p>HOMING</p></button>
+				<button class="menuoption" data-action="COMPACTLAUNCHER"><img src="images/compactlauncher.png"><p>COMPACT GRANADE</p></button>
+				<button class="menuoption" data-action="RAYMINIGUN"><img src="images/rayminigun.png"><p>WIDOWMAKER</p></button>
+				<button class="menuoption" data-action="EMPLAUNCHER"><img src="images/emplauncher.png"><p>EMP LAUCHER</p></button>
+				<!-- GRANAS -->
+				<span class="categorias">GRANADAS</span>
+				<button class="menuoption" data-action="GRENADE"><img src="images/grenade.png"><p>GRENADE</p></button>
+				<button class="menuoption" data-action="BZGAS"><img src="images/bzgas.png"><p>BZ GAS</p></button>
+				<button class="menuoption" data-action="MOLOTOV"><img src="images/molotov.png"><p>MOLOTOV</p></button>
+				<button class="menuoption" data-action="STICKYBOMB"><img src="images/stickybomb.png"><p>C4</p></button>
+				<button class="menuoption" data-action="PROXMINE"><img src="images/proxmine.png"><p>MINA</p></button>
+				<button class="menuoption" data-action="SNOWBALL"><img src="images/snowball.png"><p>BOLA DE NEVE</p></button>
+				<button class="menuoption" data-action="PIPBOMB"><img src="images/pipebomb.png"><p>BOMBA CASEIRA</p></button>
+				<button class="menuoption" data-action="BALL"><img src="images/ball.png"><p>BOLA BASEBALL</p></button>
+				<button class="menuoption" data-action="SMOKEGRENADE"><img src="images/smokegrenade.png"><p>SMOKE</p></button>
+				<button class="menuoption" data-action="FLARE"><img src="images/flare.png"><p>SINALIZADOR DE MAO</p></button>
+				<!-- ITEM EM GERAL -->
+				<span class="categorias">OUTROS</span>
+				<button class="menuoption" data-action="FIREEXTINGUISHER"><img src="images/fireextinguisher.png"><p>EXTINTOR</p></button>
+				<button class="menuoption" data-action="PARACHUTE"><img src="images/parachute.png"><p>PARA QUEDAS</p></button>
+				<button class="menuoption" data-action="COLETE"><img src="images/vest.png"><p>COLETE</p></button>
+			</div>
+			<div class="menu__float">
+				<img src="images/logo-strong.png">
+				<button class="menuoption btn_limpar" data-action="limpar">Limpar</button>
+				<button class="menuoption btn_fechar" data-action="fechar">Fechar</button>
+			</div>
+		</div>
+		<script src="ui.js" type="text/javascript"></script>
+	</body>
+</html>
